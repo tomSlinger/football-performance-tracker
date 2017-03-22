@@ -1,6 +1,5 @@
 # TODO
-- git
-- add a new game
+- add a new game (just need to add database insert, request variables setup)
 - success page for adding, updating and deleting a game
 - update a game
 - delete a game
