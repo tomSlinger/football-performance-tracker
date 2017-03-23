@@ -12,8 +12,28 @@
 			<div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
+                        <?php require('../../controllers/ViewAllGamesController.php'); ?>
                         <h1>View all Games</h1>
                         <hr />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Date Played</th>
+                                    <th>Opponent</th>
+                                    <th>Final Score</th>
+                                    <th>Overall Rating</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php display_all_games(); ?>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
 			</div>
