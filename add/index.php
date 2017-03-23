@@ -18,19 +18,19 @@
                         if(isset($_GET['result'])){
                             if($_GET['result'] === 'success'){
                                 ?>
-                                <div class="alert alert-success" role="alert">
+                                <div class="alert alert-success" role="alert" id="result">
                                     <strong>Successfully added Game!</strong>
                                 </div>
                             <?php
                             }else if($_GET['result'] === 'error'){
                                 ?>
-                                <div class="alert alert-danger" role="alert">
+                                <div class="alert alert-danger" role="alert" id="result">
                                     <strong>Oops! Something went wrong, please try again!</strong>
                                 </div>
                             <?php
                             }else{
                                 ?>
-                                <div class="alert alert-danger" role="alert">
+                                <div class="alert alert-danger" role="alert" id="result">
                                     <strong>Oops! Something went wrong, an unknown error occurred.</strong>
                                 </div>
                             <?php

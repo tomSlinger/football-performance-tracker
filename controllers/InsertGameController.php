@@ -54,9 +54,9 @@ $sql_add_game = "INSERT INTO appData (date_played, opponent, half_time_score, fu
                 VALUES ('$date_played', '$opponent', '$ht_score', '$ft_score', '$is_away', '$fh_saves', '$fh_catches', '$fh_distribution', '$fh_comments', '$sh_saves', '$sh_catches', '$sh_distribution', '$sh_comments', '$o_rating', '$o_comments')";
 
 if(mysqli_query($conn, $sql_add_game)){
-    header('Location: /add/?result=success');
+    header('Location: /add/?result=success#result');
 }else{
-    header('LOcation: /add/?result=error');
+    header('LOcation: /add/?result=error#result');
 }
 
 ?>
