@@ -82,10 +82,10 @@
 								<a href="/add" class="btn btn-primary" role="button">Add a Game</a>
 							</div>
 							<div class="col-md-3">
-								<a href="#" class="btn btn-warning" role="button">Update a Game</a>
+								<a href="/update/all" class="btn btn-warning" role="button">Update a Game</a>
 							</div>
 							<div class="col-md-3">
-								<a href="#" class="btn btn-danger" role="button">Delete a Game</a>
+								<a href="/delete/all" class="btn btn-danger" role="button">Delete a Game</a>
 							</div>
 							<div class="col-md-3">
 								<a href="/view/all" class="btn btn-info" role="button">View all Games</a>
