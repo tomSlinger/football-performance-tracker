@@ -50,4 +50,13 @@ $o_comments = mysqli_real_escape_string($conn, $_REQUEST['overall_comments']);
 // echo 'Overall Rating: ' . $o_rating . '<br />';
 // echo 'Overall Comments: ' . $o_comments . '<br />';
 
+$sql_add_game = "INSERT INTO appData (date_played, opponent, half_time_score, full_time_score, is_away, saves_first_half, catches_first_half, distribution_first_half, first_half_comments, saves_second_half, catches_second_half, distribution_second_half, second_half_comments, overall_rating, overall_comments)
+                VALUES ('$date_played', '$opponent', '$is_away', '$ht_score', '$ft_score', '$fh_saves', '$fh_catches', '$fh_distribution', '$fh_comments', '$sh_saves', '$sh_catches', '$sh_distribution', '$sh_comments', '$o_rating', '$o_comments')";
+
+if(mysqli_query($conn, $sql_add_game)){
+    header('Location: /add/?result=success');
+}else{
+    header('LOcation: /add/?result=error');
+}
+
 ?>
