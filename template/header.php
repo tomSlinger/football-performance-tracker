@@ -22,7 +22,7 @@
                         <a class="nav-link" href="/delete">Delete a Game</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/view">View all Games</a>
+                        <a class="nav-link" href="/view/all">View all Games</a>
                     </li>
                 </ul>
             </div>

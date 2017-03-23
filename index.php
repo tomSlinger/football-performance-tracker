@@ -88,7 +88,7 @@
 								<a href="#" class="btn btn-danger" role="button">Delete a Game</a>
 							</div>
 							<div class="col-md-3">
-								<a href="#" class="btn btn-info" role="button">View all Games</a>
+								<a href="/view/all" class="btn btn-info" role="button">View all Games</a>
 							</div>
 						</div>
 					</div>
