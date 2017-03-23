@@ -106,7 +106,7 @@
                                         <a href="#" class="btn btn-danger" role="button">Click here to delete ALL data</a>
                                     </p>
                                     <small>
-                                        Beware, this will delete the entire application database and table...
+                                        Be aware, this will delete the entire application database and table...
                                     </small>
                                     <p style="margin-top:10px;">
                                         <a href="https://github.com/tomSlinger" class="btn btn-success" role="button"><i class="fa fa-github fa-lg" aria-hidden="true"></i> View Source</a>
