@@ -14,12 +14,13 @@
                     <div class="col-md-12 text-center">
                         <?php require('../../controllers/ViewAllGamesController.php'); ?>
                         <h1>View all Games</h1>
+                        <small>Sorted by: Date Played</small>
                         <hr />
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 text-center">
-                        <table class="table table-hover">
+                    <div class="col-md-12">
+                        <table class="table table-hover text-center">
                             <thead>
                                 <tr>
                                     <th>#</th>
