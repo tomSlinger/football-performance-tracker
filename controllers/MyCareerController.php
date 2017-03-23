@@ -10,6 +10,8 @@ function display_saves_made(){
         while($row = mysqli_fetch_assoc($result_saves_made)){
             return $row['(SUM(saves_first_half)+SUM(saves_second_half))'];
         }
+    }else{
+        return '0';
     }
 }
 // Catches Made
@@ -21,6 +23,8 @@ function display_catches_made(){
         while($row = mysqli_fetch_assoc($result_catches_made)){
             return $row['(SUM(catches_first_half)+SUM(catches_second_half))'];
         }
+    }else{
+        return '0';
     }
 }
 // Away Games Played
