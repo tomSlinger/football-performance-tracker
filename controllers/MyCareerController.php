@@ -28,7 +28,18 @@ function display_catches_made(){
     }
 }
 // Away Games Played
-
+$sql_away_games = "SELECT id FROM `appdata` WHERE is_away = '0'";
+$result_away_games = mysqli_query($conn, $sql_away_games);
+function display_away_games(){
+    global $result_away_games;
+    if(mysqli_num_rows($result_away_games) > 1){
+        return mysqli_num_rows($result_away_games) . ' Away Games Played';
+    }else if(mysqli_num_rows($result_away_games) === 1){
+        return '1 Away Game Played';
+    }else{
+        return '0 Away Games Played';
+    }
+}
 // Home Games Played
 
 ?>
