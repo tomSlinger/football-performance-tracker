@@ -17,7 +17,7 @@
 						<div class="row">
 							<div class="col-md-6">
 								<div class="card">
-									<h4 class="card-header text-success">vs. Albertos (3-0)</h4>
+									<h4 class="card-header text-success">vs. Albertos (3-0)<br /><small>(Away)</small></h4>
 									<div class="card-block">
 										<p class="card-text">Date: 2017-03-04</p>
 										<p class="card-text">Overall Rating: 7/10</p>
@@ -28,7 +28,7 @@
 							</div>
 							<div class="col-md-6">
 								<div class="card">
-									<h4 class="card-header text-danger">vs. Clumber (1-2)</h4>
+									<h4 class="card-header text-danger">vs. Clumber (1-2)<br /><small>(Home)</small></h4>
 									<div class="card-block">
 										<p class="card-text">Date: 2017-01-21</p>
 										<p class="card-text">Overall Rating: 5/10</p>
