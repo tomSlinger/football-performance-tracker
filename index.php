@@ -47,7 +47,7 @@
 							<div class="col-md-6">
 								<div class="card card-outline-info mb-3 text=center">
 									<div class="card-block">
-										<h5><?php echo $result_saves_made; ?> Saves Made</h5>
+										<h5><?php echo display_saves_made(); ?> Saves Made</h5>
 									</div>
 								</div>
 							</div>
