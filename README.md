@@ -4,3 +4,4 @@
 - delete a game
 - view all games
 - get last 5 games (for homepage)
+- add goals conceeded, games lost & games won to career stats (homepage)
