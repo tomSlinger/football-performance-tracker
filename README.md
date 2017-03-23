@@ -4,6 +4,4 @@
 - update a game
 - delete a game
 - view all games
-- get last 5 games (for homepage)
-- add goals conceeded, games lost & games won to career stats (homepage)
 - link up update and delete functionality from get responses on view all games page & home page
