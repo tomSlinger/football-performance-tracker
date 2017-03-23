@@ -40,13 +40,14 @@
 						</div>
 					</div>
 					<div class="col-md-6 text-center">
+						<?php require('controllers/MyCareerController.php'); ?>
 						<h2>My Career</h2>
 						<hr />
 						<div class="row">
 							<div class="col-md-6">
 								<div class="card card-outline-info mb-3 text=center">
 									<div class="card-block">
-										<h5>10 Saves Made</h5>
+										<h5><?php echo $result_saves_made; ?> Saves Made</h5>
 									</div>
 								</div>
 							</div>
