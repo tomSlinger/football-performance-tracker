@@ -27,27 +27,27 @@ $o_comments = mysqli_real_escape_string($conn, $_REQUEST['overall_comments']);
 
 // Test getting the results...
 
-echo '<h1>Game Information</h1>';
-echo 'Date Played: ' . $date_played . '<br />';
-echo 'Opponent Name: ' . $opponent . '<br />';
-echo 'Home(1) or Away(0): ' . $is_away . '<br />';
-echo 'Half Time Score: ' . $ht_score . '<br />';
-echo 'Full Time Score: ' . $ft_score . '<br />';
+// echo '<h1>Game Information</h1>';
+// echo 'Date Played: ' . $date_played . '<br />';
+// echo 'Opponent Name: ' . $opponent . '<br />';
+// echo 'Home(1) or Away(0): ' . $is_away . '<br />';
+// echo 'Half Time Score: ' . $ht_score . '<br />';
+// echo 'Full Time Score: ' . $ft_score . '<br />';
 
-echo '<h1>First Half</h1>';
-echo 'Saves Made: ' . $fh_saves . '<br />';
-echo 'Catches Made: ' . $fh_catches . '<br />';
-echo 'Distribution: ' . $fh_distribution . '<br />';
-echo 'Comments: ' . $fh_comments . '<br />';
+// echo '<h1>First Half</h1>';
+// echo 'Saves Made: ' . $fh_saves . '<br />';
+// echo 'Catches Made: ' . $fh_catches . '<br />';
+// echo 'Distribution: ' . $fh_distribution . '<br />';
+// echo 'Comments: ' . $fh_comments . '<br />';
 
-echo '<h1>Second Half</h1>';
-echo 'Saves Made: ' . $sh_saves . '<br />';
-echo 'Catches Made: ' . $sh_catches . '<br />';
-echo 'Distribution: ' . $sh_distribution . '<br />';
-echo 'Comments: ' . $sh_comments . '<br />';
+// echo '<h1>Second Half</h1>';
+// echo 'Saves Made: ' . $sh_saves . '<br />';
+// echo 'Catches Made: ' . $sh_catches . '<br />';
+// echo 'Distribution: ' . $sh_distribution . '<br />';
+// echo 'Comments: ' . $sh_comments . '<br />';
 
-echo '<h1>Overall</h1>';
-echo 'Overall Rating: ' . $o_rating . '<br />';
-echo 'Overall Comments: ' . $o_comments . '<br />';
+// echo '<h1>Overall</h1>';
+// echo 'Overall Rating: ' . $o_rating . '<br />';
+// echo 'Overall Comments: ' . $o_comments . '<br />';
 
 ?>
