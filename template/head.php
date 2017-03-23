@@ -6,6 +6,6 @@
 <!--Google Font-->
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 <!--Custom CSS-->
-<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="../assets/css/main.css" />
 <!--Font Awesome-->
 <script src="https://use.fontawesome.com/3391c56563.js"></script>
