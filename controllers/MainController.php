@@ -33,9 +33,4 @@ if(!$db_select){
     }
 }
 
-// TO DO
-//2) GIT
-
-
-
 ?>
