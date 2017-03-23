@@ -12,10 +12,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 text-center">
-						<h2>My Recent Performances <small>(2)</small></h2>
+						<?php require('controllers/MyRPerformancesController.php'); ?>
+						<h2>My Recent Performances <small>(<?php echo display_recent_games_played(); ?>)</small></h2>
 						<hr />
 						<div class="row">
-							<div class="col-md-6">
+							<?php display_recent_performances(); ?>
+							<!--<div class="col-md-6">
 								<div class="card">
 									<h4 class="card-header text-success">vs. Albertos (3-0)<br /><small>(Away)</small></h4>
 									<div class="card-block">
@@ -36,7 +38,7 @@
 										<a href="#" class="btn btn-danger">Delete</a>
 									</div>
 								</div>
-							</div>
+							</div>-->
 						</div>
 					</div>
 					<div class="col-md-6 text-center">
