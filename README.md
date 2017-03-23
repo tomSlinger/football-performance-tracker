@@ -4,4 +4,3 @@
 - delete a game
 - view all games
 - get last 5 games (for homepage)
-- get stats from all games (for homepage (career))
