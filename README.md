@@ -1,5 +1,4 @@
 # TODO
-- navigation
 - success page for adding, updating and deleting a game
 - update a game
 - delete a game
