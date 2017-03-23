@@ -42,6 +42,36 @@
 					<div class="col-md-6 text-center">
 						<h2>My Career</h2>
 						<hr />
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card card-outline-info mb-3 text=center">
+									<div class="card-block">
+										<h5>10 Saves Made</h5>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card card-outline-info mb-3 text=center">
+									<div class="card-block">
+										<h5>30 Catches Made</h5>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card card-outline-info mb-3 text=center">
+									<div class="card-block">
+										<h5>4 Away Games Played</h5>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card card-outline-info mb-3 text=center">
+									<div class="card-block">
+										<h5>3 Home Games Played</h5>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="col-md-12 text-center">
 						<h2>Actions</h2>
