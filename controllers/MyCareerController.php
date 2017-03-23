@@ -13,7 +13,16 @@ function display_saves_made(){
     }
 }
 // Catches Made
-
+$sql_catches_made = "SELECT (SUM(catches_first_half)+SUM(catches_second_half)) FROM appdata LIMIT 1";
+$result_catches_made = mysqli_query($conn, $sql_catches_made);
+function display_catches_made(){
+    global $result_catches_made;
+    if(mysqli_num_rows($result_catches_made) > 0){
+        while($row = mysqli_fetch_assoc($result_catches_made)){
+            return $row['(SUM(catches_first_half)+SUM(catches_second_half))'];
+        }
+    }
+}
 // Away Games Played
 
 // Home Games Played
