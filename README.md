@@ -1,5 +1,5 @@
 # TODO
-- finish MyRPerformancesController.php, add final score, away or home to the card header
+- finish MyRPerformancesController.php, add final score, away or home to the card header (get finding if home or away from ViewAllGamesController.php)
 - success page for adding, updating and deleting a game
 - update a game
 - delete a game
