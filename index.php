@@ -12,8 +12,32 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 text-center">
-						<h2>My Recent Performances <small>(0)</small></h2>
+						<h2>My Recent Performances <small>(2)</small></h2>
 						<hr />
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card">
+									<h4 class="card-header text-success">vs. Albertos (3-0)</h4>
+									<div class="card-block">
+										<p class="card-text">Date: 2017-03-04</p>
+										<p class="card-text">Overall Rating: 7/10</p>
+										<a href="#" class="btn btn-warning">Update</a>
+										<a href="#" class="btn btn-danger">Delete</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card">
+									<h4 class="card-header text-danger">vs. Clumber (1-2)</h4>
+									<div class="card-block">
+										<p class="card-text">Date: 2017-01-21</p>
+										<p class="card-text">Overall Rating: 5/10</p>
+										<a href="#" class="btn btn-warning">Update</a>
+										<a href="#" class="btn btn-danger">Delete</a>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="col-md-6 text-center">
 						<h2>My Career</h2>
