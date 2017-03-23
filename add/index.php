@@ -14,12 +14,29 @@
                     <div class="col-md-12 text-center">
                         <h1>Add a Game</h1>
                         <hr />
-                        <div class="alert alert-success" role="alert">
-                            <strong>Successfully added Game!</strong>
-                        </div>
-                        <div class="alert alert-danger" role="alert">
-                            <strong>Oops! Something went wrong, please try again!</strong>
-                        </div>
+                        <?php
+                        if(isset($_GET['result'])){
+                            if($_GET['result'] === 'success'){
+                                ?>
+                                <div class="alert alert-success" role="alert">
+                                    <strong>Successfully added Game!</strong>
+                                </div>
+                            <?php
+                            }else if($_GET['result'] === 'error'){
+                                ?>
+                                <div class="alert alert-danger" role="alert">
+                                    <strong>Oops! Something went wrong, please try again!</strong>
+                                </div>
+                            <?php
+                            }else{
+                                ?>
+                                <div class="alert alert-danger" role="alert">
+                                    <strong>Oops! Something went wrong, an unknown error occurred.</strong>
+                                </div>
+                            <?php
+                            }
+                        }
+                        ?>
                     </div>
                 </div>
                 <div class="row text-center">
