@@ -68,7 +68,7 @@
 							<div class="col-md-6">
 								<div class="card card-outline-info mb-3 text=center">
 									<div class="card-block">
-										<h5>3 Home Games Played</h5>
+										<h5><?php echo display_home_games(); ?></h5>
 									</div>
 								</div>
 							</div>
