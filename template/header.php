@@ -1,5 +1,32 @@
 <header>
     <div class="container-fluid text-center">
+        <!--Navigation-->
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="/">FPT</a>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home <span class="sr-only">(Current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/add">Add a Game</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/update">Update a Game</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/delete">Delete a Game</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/view">View all Games</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <!--Error Block Row-->
         <div class="row">
             <div class="col-md-12">
