@@ -26,12 +26,19 @@ function display_recent_performances(){
             $date_played_unix = strtotime($row['date_played']);
             // Convert unix time to UK date
             $date_played_uk = date('d-m-Y', $date_played_unix);
+            // Check if Away or Home Game
+            if($row['is_away'] === '1'){
+                $is_away = "H";
+            }else{
+                $is_away = "A";
+            }
             echo "<div class='col-md-6'>";
                 echo "<div class='card'>";
                     // TO DO
-                    echo "<h4 class='card-header'>". $row['opponent'] ."</h4>";
+                    echo "<h4 class='card-header'>". $row['opponent'] ." (". $is_away .")" . "</h4>";
                     echo "<div class='card-block'>";
                         echo "<p class='card-text'>Date: ". $date_played_uk ."</p>";
+                        echo "<p class='card-text'>Final Score: ". $row['full_time_score'] ."</p>";
                         echo "<p class='card-text'>Overall Rating ". $row['overall_rating'] ."</p>";
                         ?>
                         <a href="/update?id=<?php echo $row['id']; ?>" class="btn btn-warning" role="button">Update</a>
