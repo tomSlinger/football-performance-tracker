@@ -23,12 +23,12 @@
                         <table class="table table-hover text-center">
                             <thead>
                                 <tr>
-                                    <th>#</th>
-                                    <th>Date Played</th>
-                                    <th>Opponent</th>
-                                    <th>Final Score</th>
-                                    <th>Overall Rating</th>
-                                    <th>Actions</th>
+                                    <th class="text-center">#</th>
+                                    <th class="text-center">Date Played</th>
+                                    <th class="text-center">Opponent</th>
+                                    <th class="text-center">Final Score</th>
+                                    <th class="text-center">Overall Rating</th>
+                                    <th class="text-center">Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
