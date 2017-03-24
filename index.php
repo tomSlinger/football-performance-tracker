@@ -17,28 +17,6 @@
 						<hr />
 						<div class="row">
 							<?php display_recent_performances(); ?>
-							<!--<div class="col-md-6">
-								<div class="card">
-									<h4 class="card-header text-success">vs. Albertos (3-0)<br /><small>(Away)</small></h4>
-									<div class="card-block">
-										<p class="card-text">Date: 2017-03-04</p>
-										<p class="card-text">Overall Rating: 7/10</p>
-										<a href="#" class="btn btn-warning">Update</a>
-										<a href="#" class="btn btn-danger">Delete</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="card">
-									<h4 class="card-header text-danger">vs. Clumber (1-2)<br /><small>(Home)</small></h4>
-									<div class="card-block">
-										<p class="card-text">Date: 2017-01-21</p>
-										<p class="card-text">Overall Rating: 5/10</p>
-										<a href="#" class="btn btn-warning">Update</a>
-										<a href="#" class="btn btn-danger">Delete</a>
-									</div>
-								</div>
-							</div>-->
 						</div>
 					</div>
 					<div class="col-md-6 text-center">
