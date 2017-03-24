@@ -41,8 +41,8 @@ function display_recent_performances(){
                         echo "<p class='card-text'>Final Score: ". $row['full_time_score'] ."</p>";
                         echo "<p class='card-text'>Overall Rating ". $row['overall_rating'] ."</p>";
                         ?>
+                        <a href="/view?id=<?php echo $row['id']; ?>" class="btn btn-info" role="button">View</a>
                         <a href="/update?id=<?php echo $row['id']; ?>" class="btn btn-warning" role="button">Update</a>
-                        <a href="/delete?id=<?php echo $row['id']; ?>" class="btn btn-danger" role="button">Delete</a>
                         <?php
                     echo "</div>";
                 echo "</div>";
