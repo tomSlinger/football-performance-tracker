@@ -147,7 +147,7 @@
                                 </div>
                                 <!--Submit-->
                                 <div class="col-md-12">
-                                    <input type="submit" value="Submit" class="btn btn-primary" />
+                                    <input type="submit" value="Submit" class="btn btn-primary  btn-lg" />
                                 </div>
                             </div>
                         </form>
