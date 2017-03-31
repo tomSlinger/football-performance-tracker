@@ -16,13 +16,13 @@
                         <a class="nav-link" href="/add">Add a Game</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/view/all">Update a Game</a>
+                        <a class="nav-link" href="/view/all?link=update">Update a Game</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/view/all">Delete a Game</a>
+                        <a class="nav-link" href="/view/all?link=delete">Delete a Game</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/view/all">View all Games</a>
+                        <a class="nav-link" href="/view/all?link=view">View all Games</a>
                     </li>
                 </ul>
             </div>

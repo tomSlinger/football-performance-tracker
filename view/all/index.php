@@ -17,7 +17,7 @@
                         <small>Sorted by: Date Played</small>
                         <hr />
                         <?php
-                        // Check if User has added a new game
+                        // Check if User has added a new game or delete a game
                         if(isset($_GET['add'])){
                             if($_GET['add'] === 'success'){
                                 ?>
@@ -59,6 +59,33 @@
                             <?php
                             }
                         }else{
+                            if(isset($_GET['link'])){
+                                if($_GET['link'] === 'update'){
+                                    ?>
+                                    <div class="alert alert-info" role="alert" id="result">
+                                        <strong>Choose a game to update!</strong>
+                                    </div>
+                                <?php
+                                }else if($_GET['link'] === 'delete'){
+                                    ?>
+                                    <div class="alert alert-info" role="alert" id="result">
+                                        <strong>Choose a game to delete!</strong>
+                                    </div>
+                                <?php
+                                }else if($_GET['link'] === 'view'){
+                                    ?>
+                                    <div class="alert alert-info" role="alert" id="result">
+                                        <strong>Choose a game to view!</strong>
+                                    </div>
+                                <?php
+                                }else{
+                                    ?>
+                                    <div class="alert alert-info" role="alert" id="result">
+                                        <strong>What would you like to do?</strong>
+                                    </div>
+                                <?php
+                                }
+                            }
                         }
 
                         ?>
