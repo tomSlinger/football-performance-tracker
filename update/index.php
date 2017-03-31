@@ -42,7 +42,7 @@
                 </div>
                 <div class="row text-center">
                     <div class="col-md-12">
-                        <form action="../controllers/UpdateGameController.php" method="post">
+                        <form action="../controllers/UpdateGameController.php?id=<?php echo $game_id; ?>" method="post">
                             <div class="row">
                                 <!--Game Information-->
                                 <div class="col-md-12">
@@ -149,6 +149,7 @@
                                 <!--Submit-->
                                 <div class="col-md-12">
                                     <input type="submit" value="Submit" class="btn btn-primary  btn-lg" />
+                                    <a href="/delete?id=<?php echo $game_id; ?>" class="btn btn-danger btn-lg" role="button">Delete Game</a>
                                 </div>
                             </div>
                         </form>

@@ -1,5 +1,8 @@
 <?php
 require('MainController.php');
+require('ViewGameController.php');
+
+$game_id = $_GET['id'];
 
 // Game Info
 $date_played = mysqli_real_escape_string($conn, $_REQUEST['date_played']);
@@ -48,5 +51,13 @@ $o_comments = mysqli_real_escape_string($conn, $_REQUEST['overall_comments']);
 // echo '<h1>Overall</h1>';
 // echo 'Overall Rating: ' . $o_rating . '<br />';
 // echo 'Overall Comments: ' . $o_comments . '<br />';
+
+$sql_update_game = "UPDATE appData SET date_played='$date_played', opponent='$opponent', half_time_score='$ht_score', full_time_score='$ft_score', is_away='$is_away', saves_first_half='$fh_saves', catches_first_half='$fh_catches', distribution_first_half='$fh_distribution', first_half_comments='$fh_comments', saves_second_half='$sh_saves', catches_second_half='$sh_catches', distribution_second_half='$sh_distribution', second_half_comments='$sh_comments', overall_rating='$o_rating', overall_comments='$o_comments' WHERE id='$game_id'";
+
+if(mysqli_query($conn, $sql_update_game)){
+    header('Location: /update?id='.$game_id.'&result=success#result');
+}else{
+    header('Location: /update?id='.$game_id.'&result=error#result');
+}
 
 ?>
