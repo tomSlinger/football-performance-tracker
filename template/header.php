@@ -99,7 +99,7 @@
                                 <div class="col-md-6 text-center">
                                 <p class="text-success">Successfully connected to Database and Table!</p>
                                 <p>This application will allow you to track and review your football performances.</p>
-                                <p>All information entered on this site is stored locally, on your own PC.</p>
+                                <p>All information entered on this site is stored locally. No information is sent to the developer.</p>
                                 </div>
                                 <div class="col-md-6 text-right">
                                     <p style="margin-bottom:0;">
