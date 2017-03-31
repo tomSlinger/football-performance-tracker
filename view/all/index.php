@@ -17,23 +17,15 @@
                         <small>Sorted by: Date Played</small>
                         <hr />
                         <?php
-                        if(isset($_GET['add']) || $_GET['delete']){
-                            if($_GET['add'] === 'success' || $_GET['delete'] === 'success'){
+                        // Check if User has added a new game
+                        if(isset($_GET['add'])){
+                            if($_GET['add'] === 'success'){
                                 ?>
                                 <div class="alert alert-success" role="alert" id="result">
-                                    <?php if($_GET['add'] === 'success'){
-                                        ?>
-                                        <strong>Successfully added Game!</strong>
-                                    <?php
-                                    }else{
-                                        ?>
-                                        <strong>Successfully deleted Game!</strong>
-                                    <?php
-                                    }
-                                    ?>
+                                    <strong>Successfully added Game!</strong>
                                 </div>
                             <?php
-                            }else if($_GET['add'] === 'error' || $_GET['delete'] === 'error'){
+                            }else if($_GET['add'] === 'error'){
                                 ?>
                                 <div class="alert alert-danger" role="alert" id="result">
                                     <strong>Oops! Something went wrong, please try again!</strong>
@@ -46,7 +38,29 @@
                                 </div>
                             <?php
                             }
+                        }else if(isset($_GET['delete'])){
+                            if($_GET['delete'] === 'success'){
+                                ?>
+                                <div class="alert alert-success" role="alert" id="result">
+                                    <strong>Successfully deleted Game!</strong>
+                                </div>
+                            <?php
+                            }else if($_GET['delete'] === 'error'){
+                                ?>
+                                <div class="alert alert-danger" role="alert" id="result">
+                                    <strong>Oops! Something went wrong, please try again!</strong>
+                                </div>
+                            <?php
+                            }else{
+                                ?>
+                                <div class="alert alert-danger" role="alert" id="result">
+                                    <strong>Oops! Something went wrong, an unknown error occurred.</strong>
+                                </div>
+                            <?php
+                            }
+                        }else{
                         }
+
                         ?>
                     </div>
                 </div>
