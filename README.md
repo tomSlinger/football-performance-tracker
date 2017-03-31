@@ -1,3 +1,17 @@
-# TODO
-- add check to update game, make sure game id is valid (code already set in ViewGameController) - just need to add if statement in view
-- rewrite view index.php, need to fix layout and conditional layouts for invalid ID's (all code will need reviewing and rewriting for consistency + comments need adding for ending of if statements etc...)
+# Football Performance Tracker
+
+## Add, View, Update & Delete games all in one application.
+
+## Created using PHP & MySQL
+### All information is stored on a locally hosted SQL server
+
+## To Run
+1) Clone to server root
+2) Setup MySQL on server
+3) Open application
+
+## Functionality
+- Auto Database & Table detection and creation upon load
+- Add, View, Update and Delete games
+- Performance tracking (Saves made, cathes made etc.. More coming soon)
+- Quick glance
