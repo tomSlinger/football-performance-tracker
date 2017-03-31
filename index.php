@@ -11,36 +11,6 @@
 		<?php if($db_select && mysqli_num_rows($result_check_tbl) > 0){ ?>
 			<div class="container">
 				<div class="row">
-					<!--PUT FEEDBACK FROM DELETE SUCCESS HERE-->
-					<?php
-					if(isset($_GET['delete'])){
-						if($_GET['delete'] === 'success'){
-							?>
-							<div class="col-md-12">
-								<div class="alert alert-success" role="alert" id="result">
-                                	<strong>Successfully deleted game!</strong>
-                            	</div>
-							</div>
-						<?php
-						}else if($_GET['delete'] === 'error'){
-							?>
-							<div class="col-md-12">
-								<div class="alert alert-danger" role="alert" id="result">
-									<strong>Error deleting game, please try again!</strong>
-								</div>
-							</div>
-						<?php
-						}else{
-							?>
-							<div class="col-md-12">
-								<div class="alert alert-danger" role="alert" id="result">
-									<strong>Error deleting game, an unknown error occurred.</strong>
-								</div>
-							</div>
-						<?php
-						}
-					}
-					?>
 					<div class="col-md-6 text-center">
 						<?php require('controllers/MyRPerformancesController.php'); ?>
 						<h2>My Recent Performances <small>(<?php echo display_recent_games_played(); ?>)</small></h2>

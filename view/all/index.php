@@ -17,14 +17,23 @@
                         <small>Sorted by: Date Played</small>
                         <hr />
                         <?php
-                        if(isset($_GET['result'])){
-                            if($_GET['result'] === 'success'){
+                        if(isset($_GET['result']) || $_GET['delete']){
+                            if($_GET['result'] === 'success' || $_GET['delete'] === 'success'){
                                 ?>
                                 <div class="alert alert-success" role="alert" id="result">
-                                    <strong>Successfully added Game!</strong>
+                                    <?php if($_GET['result'] === 'success'){
+                                        ?>
+                                        <strong>Successfully added Game!</strong>
+                                    <?php
+                                    }else{
+                                        ?>
+                                        <strong>Successfully deleted Game!</strong>
+                                    <?php
+                                    }
+                                    ?>
                                 </div>
                             <?php
-                            }else if($_GET['result'] === 'error'){
+                            }else if($_GET['result'] === 'error' || $_GET['delete'] === 'error'){
                                 ?>
                                 <div class="alert alert-danger" role="alert" id="result">
                                     <strong>Oops! Something went wrong, please try again!</strong>
