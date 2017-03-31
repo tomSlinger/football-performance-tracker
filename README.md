@@ -1,6 +1,7 @@
 # Football Performance Tracker
 
 ## Add, View, Update & Delete games all in one application.
+Note: This application has been designed to run on a local server, for the use of only one person.
 
 ## Created using PHP & MySQL
 ### All information is stored on a locally hosted MySQL server
