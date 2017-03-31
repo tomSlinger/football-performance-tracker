@@ -1,6 +1,3 @@
-<?php
-
-?>
 <html>
     <head>
         <?php include('../template/head.php'); ?>
