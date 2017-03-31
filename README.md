@@ -3,7 +3,7 @@
 ## Add, View, Update & Delete games all in one application.
 
 ## Created using PHP & MySQL
-### All information is stored on a locally hosted SQL server
+### All information is stored on a locally hosted MySQL server
 
 ## To Run
 1) Clone to server root
