@@ -6,7 +6,7 @@
     </head>
     <body>
         <?php require('../controllers/MainController.php'); ?>
-        <?php require('../controllers/DeleteGameController.php'); ?>
+        <?php $game_id = $_GET['id']; ?>
         <!--Content-->
         <?php include('../template/header.php'); ?>
         <?php if($db_select && mysqli_num_rows($result_check_tbl) > 0){ ?>
